@@ -1,0 +1,18 @@
+server:
+    port: 8081
+
+spring:
+    data:
+        mongodb:
+            uri: mongodb://localhost:27017/product_command_cqrs_axon_db
+    #For colour log
+    output:
+        ansi:
+            enabled: ALWAYS
+    #For application name
+    application:
+        name: axonserver-cqrs
+    #For Axon connection URL
+#    axon:
+#        axonserver:
+#            servers: http://localhost:8024 #This port can be customized
